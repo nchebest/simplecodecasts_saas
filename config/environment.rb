@@ -11,6 +11,7 @@ ActionMailer::Base.smtp_settings = {
   :authentication => :plain,
   :user_name => ENV['SENDGRID_USERNAME'],
   :password => ENV['SENDGRID_PASSWORD'],
-  :domain => 'heroku.com',
+  :domain => 'aqueous-thicket-84243.herokuapp.com',
   :enable_startstls_auto => true
 }
+ActionMailer::Base.delivery_method = :smtp
