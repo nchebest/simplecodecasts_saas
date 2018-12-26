@@ -25,3 +25,14 @@
  background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+.flash-container {
+    position: relative;
+}
+.alert-notice, .alert-alert {
+ width: 100%;
+     color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    position: absolute;
+}
