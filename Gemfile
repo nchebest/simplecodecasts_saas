@@ -42,6 +42,9 @@ gem 'stripe', '1.48.0'
 # Use figaro for ENV vairable (To hide secret keys)
 gem 'figaro', '1.1.1'
 
+# User paperclip for image uploads
+gem 'paperclip', '4.3.6'
+
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
