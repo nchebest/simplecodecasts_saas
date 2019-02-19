@@ -19,6 +19,10 @@
  @import 'font-awesome-sprockets';
  @import 'font-awesome';
  
+ // Add a custome Stylesheet here
+ @import 'pages';
+ @import 'users';
+ 
 .navbar {
  background: #780206;  /* fallback for old browsers */
  background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
@@ -35,4 +39,9 @@
     background-color: #cce5ff;
     border-color: #b8daff;
     position: absolute;
+}
+
+.avater_show_img {
+   width: 200px;
+  height: 200px;
 }
