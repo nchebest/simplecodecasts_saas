@@ -21,4 +21,12 @@
   background-color: #6c757d;
   border-color: #6c757d; }
 
+.index-avatar-img {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%; }
+
+.well.white-bg {
+  background: white; }
+
 /*# sourceMappingURL=users.css.css.map */

@@ -1,3 +1,4 @@
+// Users show page Styles
 .job_title_icon {
   display: inline-block;
   width: 30px;
@@ -24,4 +25,15 @@
 .well.contact_info {
     background-color: #6c757d;
     border-color: #6c757d;
+}
+
+// Users index page styles
+.index-avatar-img{
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+
+.well.white-bg{
+  background: white;
 }
